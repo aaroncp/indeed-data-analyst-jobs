@@ -5,7 +5,7 @@
 
 /*select count(*) from public.data_analyst_jobs where location = 'TN' or location = 'KY';*/
 
-/*select count(*) from public.data_analyst_jobs where location = 'TN' and star_rating >3;*/
+/*select count(*) from public.data_analyst_jobs where location = 'TN' and star_rating >4;*/
 
 /*select count(*) from public.data_analyst_jobs where review_count >500 and review_count < 1000;*/
 
@@ -26,7 +26,7 @@ from public.data_analyst_jobs
 where review_count > 5000
 group by  company;*/
 
-/*select count(company)
+/*select count(distinct company)
 from public.data_analyst_jobs
 where review_count > 5000;*/
 
